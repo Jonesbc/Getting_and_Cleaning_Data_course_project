@@ -1,5 +1,7 @@
 Getting and Cleaning Data course project: Code Book for "tidy_dataset.txt"
 ===========================================
+I summarized the dataset from Anguita et al. (2012) into "tidy_dataset.txt" according to the "tidy data" principles laid out by Wickham (2014). Each column contains a single variable and each row contains a single observation. "tidy_dataset.txt" contains mean values of all the mean and standard deviations of each measure of each subject for each activity type performed (e.g., walkeing, laying; see below).  
+===========================================
 Independent variable list in "tidy_dataset.txt":
 1. activity (physical activity performed)
     levels
@@ -120,3 +122,7 @@ Dependent variables:
         fBodyBodyAccJerkMag.std..
         fBodyBodyGyroMag.std..
         fBodyBodyGyroJerkMag.std..
+==================================================================================
+References:
+1. Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 2012. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL). Vitoria-Gasteiz, Spain. Dec 2012.
+2. Wickham, Hadley. 2014. Tidy data. Journal of Statistcial Software 59:1-23.
