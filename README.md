@@ -39,4 +39,8 @@ Explainations can also be found in "data_analysis.R" following "##"
 20. creates a second, independent tidy data set with the average of each variable for each activity and each subject. Group the data by "activity" then "subject".
 21. Use summarise_each() (package:dplyr) to calculate the means of all measurements for each combination of the grouped variables.
 22. write the tidy dataset to file.
+================================================================================
+References:
+1. Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 2012. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL). Vitoria-Gasteiz, Spain. Dec 2012.
+
 
